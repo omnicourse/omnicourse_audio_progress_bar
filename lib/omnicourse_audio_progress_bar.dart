@@ -1038,6 +1038,7 @@ class _RenderProgressBar extends RenderBox {
       canvas.drawCircle(center, thumbGlowRadius, thumbGlowPaint);
     }
     canvas.drawCircle(center, thumbRadius, thumbPaint);
+    // burası
   }
 
   double _proportionOfTotal(Duration duration) {
